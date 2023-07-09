@@ -16,3 +16,39 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 500px;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 3px solid green;
+}
+.value {
+  display: flex;
+  
+  justify-content: center;
+  height: 70px;
+  font-size: 50px;
+  
+}
+
+#datetime-picker {
+  height: 50px;
+  width: 310px;
+  font-size: 20px;
+  color: rgb(9, 61, 113);
+  border: 3px solid orange;
+  text-align: center;
+
+}
+button {
+  height: 30px;
+  width: 70px;
+  
+}
