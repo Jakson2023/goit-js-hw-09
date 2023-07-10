@@ -48,7 +48,22 @@ img {
 }
 button {
   height: 30px;
-  width: 70px;
+  width: 100px;
   
+}
+
+
+
+label {
+  
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+input {
+  display: flex;
 }
 
