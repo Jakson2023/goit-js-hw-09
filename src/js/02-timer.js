@@ -46,7 +46,7 @@ function onClick() {
   const selectedDate = fp.selectedDates[0];
   timerId = setInterval(() =>{
     const currentDate = new Date();
-    differenceTime = selectedDate - currentDate;
+    let differenceTime = selectedDate - currentDate;
     differenceTime -= 1000;
     selectors.startButton.disabled = true;
     selectors.startButton.style.backgroundColor = "red";
